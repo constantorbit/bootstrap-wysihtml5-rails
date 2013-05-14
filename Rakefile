@@ -11,7 +11,7 @@ task 'update' do
   if Dir.exist?('bootstrap-wysihtml5')
     system("cd bootstrap-wysihtml5 && git pull && cd ..")
   else
-    system("git clone git://github.com/jhollingworth/bootstrap-wysihtml5.git bootstrap-wysihtml5")
+    system("git clone git://github.com/constantorbit/bootstrap-wysihtml5.git bootstrap-wysihtml5")
   end
 
   system("cp #{origin_src_path}/bootstrap-wysihtml5.css #{dest_css_path}/core.css")
