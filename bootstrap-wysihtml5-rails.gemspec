@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# encoding: utf-8
 require File.expand_path('../lib/bootstrap-wysihtml5-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
